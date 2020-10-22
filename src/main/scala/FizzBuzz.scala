@@ -6,4 +6,5 @@ object FizzBuzz extends App {
     else if (i % 5 == 0) "Buzz"
     else i.toString
   println(mySeq.mkString(", "))
+
 }
