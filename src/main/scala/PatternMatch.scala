@@ -10,5 +10,5 @@ class PatternMatch {
     case _ => "Unknown"
   }
 
-  def printDay(x: Int) = println(dayOfWeek(x))
+  def printDay(x: Int): Unit = println(dayOfWeek(x))
 }
