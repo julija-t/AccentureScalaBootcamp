@@ -1,4 +1,6 @@
-class PatternMatch {
+//since we are not going to be storing data, just methods, it makes sense tha
+//this will be an object - a single instance of the class
+object PatternMatch {
   def dayOfWeek(x: Int): String = x match {
     case 1 => "Mon"
     case 2 => "Tue"
@@ -11,4 +13,6 @@ class PatternMatch {
   }
 
   def printDay(x: Int): Unit = println(dayOfWeek(x))
+
+  val hello = "hello"
 }
