@@ -27,4 +27,7 @@ object UsingPatterMatch extends App{
   }
   val points = for (i <- Range.inclusive(1, 10)) yield Point(randomRange(-5,5), r.between(-5, 5+1))
   points.foreach(pt => println(pt, direction(pt)))
+
+  points.combinations(2).toList.foreach(l => matchDistance(l(0), l(1)))
+
 }
