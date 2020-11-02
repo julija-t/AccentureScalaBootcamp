@@ -4,7 +4,8 @@ object StringFun extends App {
 //    val numPattern = "[0-9]+".r
 //    numPattern.findAllIn(text).toSeq.map(_.toInt).foldLeft(0)(_ + _)
 
-    ("[0-9]+".r findAllIn text).map(_.toInt).sum
+//    ("[0-9]+".r findAllIn text).map(_.toInt).sum
+    ("\\d+".r findAllIn text).map(_.toInt).sum
   }
 
   println(sumNumbers("Valdis has 3 cows and 58 sheep and 11horses")) //should print 72
