@@ -1,0 +1,6 @@
+2020-11-02 21:19:31,930 INFO  [main] myLogger.log - Service started
+2020-11-02 21:19:31,935 ERROR [main] myLogger.log - Some 222 message!
+2020-11-02 21:19:31,936 DEBUG [main] myLogger.log - Some 555 message!
+2020-11-02 21:19:47,852 ERROR [main] myLogger.log - Some 222 message!
+2020-11-02 21:20:01,584 INFO  [main] myLogger.log - Service started
+2020-11-02 21:20:01,589 ERROR [main] myLogger.log - Some 222 message!
